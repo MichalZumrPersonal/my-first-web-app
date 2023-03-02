@@ -4,11 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App</title>
+    <title>Counter App</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <h1>I am full stack web developer now!</h1>
-    <h1>Test</h1>
-    <h2>test2</h2>
+  <body class="titleBox">
+    <div class="title">
+      <h1>Counter App</h1>
+    </div>
+
+    <h1 id="number" class="number">0</h1>
+    <br />
+
+    <div class="buttonBox">
+      <button type="button" id="plusButton">+</button>
+      <button type="button" id="minusButton">-</button>
+    </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
